@@ -1,0 +1,25 @@
+#!/bin/sh
+# Regenerate README.md from the solution files and stage it, so the progress
+# table and solution index can never drift from what's actually committed.
+#
+# Enable with: ./tools/install-hooks.sh   (sets core.hooksPath to .githooks)
+
+set -e
+
+repo_root=$(git rev-parse --show-toplevel)
+
+if ! command -v python3 >/dev/null 2>&1; then
+    echo "pre-commit: python3 not found, skipping README regeneration." >&2
+    exit 0
+fi
+
+python3 "$repo_root/tools/generate_readme.py" || {
+    echo "pre-commit: README generation failed — commit aborted." >&2
+    exit 1
+}
+
+# Only stage the README if the generator actually changed it.
+if ! git diff --quiet -- "$repo_root/README.md"; then
+    git add -- "$repo_root/README.md"
+    echo "pre-commit: README.md regenerated and staged."
+fi
