@@ -1,0 +1,39 @@
+{
+  "_comment": "Category order + problem counts as they appear on https://cses.fi/problemset/. 'ids' maps a solution base name (PascalCase, no _suffix) to its CSES task id, used to link the problem title in the README. Unknown names simply render without a link, so add entries as you solve.",
+  "categories": [
+    { "name": "Introductory Problems", "total": 19 },
+    { "name": "Sorting and Searching", "total": 35 },
+    { "name": "Dynamic Programming",   "total": 19 },
+    { "name": "Graph Algorithms",      "total": 36 },
+    { "name": "Range Queries",         "total": 20 },
+    { "name": "Tree Algorithms",       "total": 16 },
+    { "name": "Mathematics",           "total": 31 },
+    { "name": "String Algorithms",     "total": 20 },
+    { "name": "Geometry",              "total": 15 },
+    { "name": "Advanced Techniques",   "total": 21 }
+  ],
+  "ids": {
+    "DiceCombinations": 1633,
+    "MinimizingCoins": 1634,
+    "CoinCombinationsI": 1635,
+    "CoinCombinationsII": 1636,
+    "RemovingDigits": 1637,
+    "GridPaths": 1638,
+    "BookShop": 1158,
+    "ArrayDescription": 1746,
+    "CountingTowers": 2413,
+    "EditDistance": 1639,
+    "RectangleCutting": 1744,
+    "MoneySums": 1745,
+    "RemovalGame": 1097,
+    "TwoSetsII": 1093,
+    "IncreasingSubsequence": 1145,
+    "Projects": 1140,
+    "ElevatorRides": 1653,
+    "CountingTilings": 2181,
+    "CountingNumbers": 2220
+  },
+  "titles": {
+    "_comment": "Overrides for names PascalCase-splitting gets wrong. e.g. \"TwoSetsII\": \"Two Sets II\" is handled automatically; add here only when it isn't."
+  }
+}
