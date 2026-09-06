@@ -83,22 +83,3 @@ java ProblemName < input.txt
 ```
 
 CSES takes input/output via stdin/stdout, so I use `BufferedReader`/`StringBuilder` instead of `Scanner` — `Scanner` is too slow for the larger constraints on some problems.
-
-## Keeping this README up to date
-
-The **Progress** and **Solutions** sections above are generated from the files on disk by [`tools/generate_readme.py`](tools/generate_readme.py) — everything between the `BEGIN:`/`END:` marker comments is rewritten, everything else (including this section) is hand-written and left alone.
-
-A `pre-commit` hook regenerates and stages the README on every commit, so it can't drift. Enable it once per clone:
-
-```bash
-./tools/install-hooks.sh
-```
-
-To run it by hand:
-
-```bash
-python3 tools/generate_readme.py           # rewrite the README
-python3 tools/generate_readme.py --check    # exit 1 if it's stale, don't write
-```
-
-Problem→CSES-task-id links live in [`tools/problems.json`](tools/problems.json); a problem with no entry there just renders without a link, so add ids as you go.
