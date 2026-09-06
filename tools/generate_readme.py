@@ -2,11 +2,12 @@
 """Regenerate the marked sections of README.md from the solution files on disk.
 
 Conventions this reads (see README.md):
-  <Category>/<ProblemName>.java           the final / best solution
-  <Category>/<ProblemName>_<Approach>.java  an alternative approach
+  <Category>/<ProblemName>/Optimal*.java       the final / best solution
+  <Category>/<ProblemName>/<Approach>.java     an alternative approach
 
-A problem counts as *solved* only when the un-suffixed file exists. A problem
-that only has suffixed files is reported as in progress, never as solved.
+A problem counts as *solved* only when an optimal solution file exists in its folder.
+A problem that only has alternative approaches (e.g. Recursive.java) is reported
+as in progress, never as solved.
 
 Only the text between the BEGIN/END markers is touched; everything you write by
 hand around them is left alone.
@@ -58,6 +59,42 @@ def collect(category_dir: Path) -> dict[str, dict]:
     problems: dict[str, dict] = {}
     if not category_dir.is_dir():
         return problems
+
+    # 1. Problem subdirectories: <Category>/<ProblemName>/...
+    for sub in sorted(category_dir.iterdir()):
+        if not sub.is_dir() or sub.name.startswith("."):
+            continue
+        base = sub.name
+        java_files = sorted(sub.glob("*.java"))
+        if not java_files:
+            continue
+
+        entry = problems.setdefault(base, {"final": None, "variants": []})
+
+        final_file = None
+        exact_matches = [
+            f for f in java_files
+            if f.stem.lower() == "optimal" or f.stem == base or f.stem.lower() == "solution"
+        ]
+        if exact_matches:
+            final_file = exact_matches[0]
+        else:
+            prefix_matches = [
+                f for f in java_files
+                if f.stem.lower().startswith("optimal")
+            ]
+            if prefix_matches:
+                final_file = prefix_matches[0]
+
+        if final_file:
+            entry["final"] = final_file
+
+        for f in java_files:
+            if f == final_file:
+                continue
+            entry["variants"].append((humanize(f.stem), f))
+
+    # 2. Backward compatibility: loose files directly in category_dir
     for f in sorted(category_dir.glob("*.java")):
         stem = f.stem
         base, _, suffix = stem.partition("_")
@@ -66,6 +103,7 @@ def collect(category_dir: Path) -> dict[str, dict]:
             entry["variants"].append((humanize(suffix.replace("_", " ")), f))
         else:
             entry["final"] = f
+
     return problems
 
 

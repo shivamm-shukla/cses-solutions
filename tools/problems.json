@@ -1,5 +1,5 @@
 {
-  "_comment": "Category order + problem counts as they appear on https://cses.fi/problemset/. 'ids' maps a solution base name (PascalCase, no _suffix) to its CSES task id, used to link the problem title in the README. Unknown names simply render without a link, so add entries as you solve.",
+  "_comment": "Category order + problem counts as they appear on https://cses.fi/problemset/. 'ids' maps a problem directory name (PascalCase) to its CSES task id, used to link the problem title in the README. Unknown names simply render without a link, so add entries as you solve.",
   "categories": [
     { "name": "Introductory Problems", "total": 19 },
     { "name": "Sorting and Searching", "total": 35 },
