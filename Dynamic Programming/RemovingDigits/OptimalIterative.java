@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RemovingDigits {
+public class OptimalIterative {
 
     public static int minSteps(int n) {
       int[] dp = new int[n + 1];

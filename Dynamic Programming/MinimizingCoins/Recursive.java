@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MinimizingCoins_Recursive {
+public class Recursive {
 
     public static int minCoins(int n, int[] coins, int i) {
 

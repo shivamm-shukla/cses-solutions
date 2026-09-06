@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class RemovalGame_Recursive {
+public class Recursive {
 
    public static int maximizeScore(int[] arr, int n, int i, int j) {
 
@@ -19,9 +19,17 @@ public class RemovalGame_Recursive {
         return Math.max(first, second);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+        String line = br.readLine();
+        if (line == null) return;
+        int n = Integer.parseInt(line.trim());
+        String[] parts = br.readLine().trim().split("\\s+");
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = Integer.parseInt(parts[i]);
+        }
+        System.out.println(maximizeScore(arr, n, 0, n - 1));
     }
   
 }

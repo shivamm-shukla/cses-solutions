@@ -190,7 +190,7 @@ def build(meta: dict) -> tuple[str, str]:
         progress += (
             f"\n\n_{total_wip} more problem(s) attempted but not finished — "
             "listed under their category below. A problem counts as solved only "
-            "once it has a final (un-suffixed) solution file._"
+            "once it has an optimal solution file._"
         )
 
     solutions = (

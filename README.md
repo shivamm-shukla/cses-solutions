@@ -19,7 +19,7 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
 | **Total** | **2 / 232** | **1%** |
 
-_2 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has a final (un-suffixed) solution file._
+_2 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
 
 ## Solutions
@@ -29,15 +29,15 @@ _2 more problem(s) attempted but not finished — listed under their category be
 
 | Problem | Solution | Other approaches |
 | ------- | -------- | ---------------- |
-| [Grid Paths](https://cses.fi/problemset/task/1638) | [GridPaths.java](Dynamic%20Programming/GridPaths.java) | [Memo](Dynamic%20Programming/GridPaths_Memo.java) |
-| [Removing Digits](https://cses.fi/problemset/task/1637) | [RemovingDigits.java](Dynamic%20Programming/RemovingDigits.java) | [Iterative](Dynamic%20Programming/RemovingDigits_Iterative.java), [Memo](Dynamic%20Programming/RemovingDigits_Memo.java) |
+| [Grid Paths](https://cses.fi/problemset/task/1638) | [OptimalIterative.java](Dynamic%20Programming/GridPaths/OptimalIterative.java) | [Recursive](Dynamic%20Programming/GridPaths/Recursive.java), [Recursive Memo](Dynamic%20Programming/GridPaths/RecursiveMemo.java) |
+| [Removing Digits](https://cses.fi/problemset/task/1637) | [OptimalIterative.java](Dynamic%20Programming/RemovingDigits/OptimalIterative.java) | [Iterative](Dynamic%20Programming/RemovingDigits/Iterative.java), [Recursive Memo](Dynamic%20Programming/RemovingDigits/RecursiveMemo.java) |
 
 > **In progress** — attempted, but no final solution committed yet.
 
 | Problem | Attempts so far |
 | ------- | --------------- |
-| [Minimizing Coins](https://cses.fi/problemset/task/1634) | [Recursive](Dynamic%20Programming/MinimizingCoins_Recursive.java) |
-| [Removal Game](https://cses.fi/problemset/task/1097) | [Recursive](Dynamic%20Programming/RemovalGame_Recursive.java) |
+| [Minimizing Coins](https://cses.fi/problemset/task/1634) | [Recursive](Dynamic%20Programming/MinimizingCoins/Recursive.java) |
+| [Removal Game](https://cses.fi/problemset/task/1097) | [Recursive](Dynamic%20Programming/RemovalGame/Recursive.java) |
 <!-- END:SOLUTIONS -->
 
 ## Structure

@@ -2,46 +2,31 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class GridPaths {
+public class RecursiveMemo {
 
     static final int MOD = 1000000007;
 
     public static int calPaths(char[][] grid, int n, int i, int j, int[][] paths) {
 
-        if (grid[n - 1][n - 1] == '*') {
+        if (i >= n || j >= n || grid[i][j] == '*') {
             return 0;
         }
 
-        paths[n - 1][n - 1] = 1;
-
-        for (i = n - 1; i >= 0; i--) {
-            for (j = n - 1; j >= 0; j--) {
-
-                if (grid[i][j] == '*') {
-                    paths[i][j] = 0;
-                    continue;
-                }
-
-                if (i == n - 1 && j == n - 1) {
-                    continue;
-                }
-
-                int up = 0;
-                int left = 0;
-
-                if (i + 1 < n) {
-                    up = paths[i + 1][j];
-                }
-
-                if (j + 1 < n) {
-                    left = paths[i][j + 1];
-                }
-
-                paths[i][j] = (up + left) % MOD;
-            }
+        if (paths[i][j] != -1) {
+            return paths[i][j];
         }
 
-        return paths[0][0];
+        if (i == n - 1 && j == n - 1) {
+            paths[i][j] = 1;
+            return 1;
+        }
+
+        int down = calPaths(grid, n, i + 1, j, paths);
+        int right = calPaths(grid, n, i, j + 1, paths);
+
+        paths[i][j] = (down + right) % MOD;
+
+        return paths[i][j];
     }
 
     public static void main(String[] args) throws Exception {

@@ -2,33 +2,32 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class RemovingDigits_Memo {
-
-    static int[] dp;
+public class Iterative {
 
     public static int minSteps(int n) {
 
-        if (n == 0) return 0;
+        int[] dp = new int[n + 1];
 
-        if (dp[n] != 0) {
-            return dp[n];
-        }
+        for (int i = 1; i <= n; i++) {
 
-        List<Integer> digits = getDigits(n);
-        int res = Integer.MAX_VALUE;
+            int res = Integer.MAX_VALUE;
 
-        for (int d : digits) {
-            if (d > 0) {
-                res = Math.min(res, minSteps(n - d) + 1);
+            List<Integer> digits = getDigits(i);
+
+            for (int d : digits) {
+                if (d > 0) {
+                    res = Math.min(res, dp[i - d] + 1);
+                }
             }
-        }
 
-        dp[n] = res;
+            dp[i] = res;
+        }
 
         return dp[n];
     }
 
     private static List<Integer> getDigits(int n) {
+
         List<Integer> list = new ArrayList<>();
 
         while (n != 0) {
@@ -45,8 +44,6 @@ public class RemovingDigits_Memo {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
-        dp = new int[n + 1];
 
         System.out.println(minSteps(n));
 
