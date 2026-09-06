@@ -47,6 +47,16 @@ cses-solutions/
 ├── Introductory Problems/
 ├── Sorting and Searching/
 ├── Dynamic Programming/
+│   ├── GridPaths/
+│   │   ├── OptimalIterative.java
+│   │   ├── RecursiveMemo.java
+│   │   ├── Recursive.java
+│   │   └── input.txt
+│   └── RemovingDigits/
+│       ├── OptimalIterative.java
+│       ├── Iterative.java
+│       ├── RecursiveMemo.java
+│       └── input.txt
 ├── Graph Algorithms/
 ├── Range Queries/
 ├── Tree Algorithms/
@@ -56,30 +66,37 @@ cses-solutions/
 └── Advanced Techniques/
 ```
 
-Each problem is filed under the same category CSES puts it in.
+Each category directory contains dedicated folders for each problem, named after the problem title in PascalCase.
 
 ## Naming convention
 
-Every problem gets its own file, named after the problem title in PascalCase (e.g. `Weird Algorithm` → `WeirdAlgorithm.java`). Java requires the public class name to match, so the class is renamed to match the file.
+Every problem has its own directory (e.g. `GridPaths/`, `RemovingDigits/`). Inside that directory, solutions represent different approaches and versions explored:
 
-If I solved a problem with more than one approach, the plain filename (no suffix) is always the best/final version — the one that's cleanest or most optimized. Other approaches sit next to it with a suffix:
+- **Optimal / Final Solution**: Named starting with `Optimal` (e.g. `OptimalIterative.java`, `Optimal.java`). This is the cleanest, most optimized solution that passes all test cases.
+- **Alternative Approaches / WIP**: Named descriptively after the approach (e.g. `Recursive.java`, `RecursiveMemo.java`, `Iterative.java`).
+- **Test Input**: A sample input file (`input.txt`) can be kept alongside the solutions for quick local verification.
 
 ```
-Dynamic Programming/
-├── RemovingDigits.java              # final, most optimized solution
-├── RemovingDigits_Memo.java         # top-down with memoization
-├── RemovingDigits_Iterative.java    # first bottom-up version
+Dynamic Programming/RemovingDigits/
+├── OptimalIterative.java    # final, most optimized solution
+├── Iterative.java           # alternative bottom-up version
+├── RecursiveMemo.java       # top-down with memoization
+└── input.txt                # sample test case
 ```
 
-So if you just want the best solution to a problem, grab the file without a suffix. If you want to see the thought process (brute force → optimized), the suffixed files are there too.
+Java requires the public class name to match the filename, so each class matches its respective file (e.g. `public class OptimalIterative`).
 
-A problem with **only** suffixed files is one I haven't finished — the approaches there don't pass yet (too slow, or incomplete). Those show up under **In progress** above and are never counted as solved.
+A problem counts as **solved** once an optimal solution (`Optimal*.java`) is present in its directory. A problem containing only exploratory approaches (such as `Recursive.java`) is tracked under **In progress** above.
 
 ## Running a solution
 
 ```bash
-javac ProblemName.java
-java ProblemName < input.txt
+# Navigate to the problem folder
+cd "Dynamic Programming/GridPaths"
+
+# Compile and run with test input
+javac OptimalIterative.java
+java OptimalIterative < input.txt
 ```
 
-CSES takes input/output via stdin/stdout, so I use `BufferedReader`/`StringBuilder` instead of `Scanner` — `Scanner` is too slow for the larger constraints on some problems.
+CSES takes input/output via stdin/stdout, so I use `BufferedReader`/`StringBuilder` instead of `Scanner` where appropriate — `Scanner` can be too slow for larger constraints.
