@@ -36,7 +36,7 @@ _2 more problem(s) attempted but not finished — listed under their category be
 
 | Problem | Attempts so far |
 | ------- | --------------- |
-| [Minimizing Coins](https://cses.fi/problemset/task/1634) | [Recursive](Dynamic%20Programming/MinimizingCoins/Recursive.java) |
+| [Minimizing Coins](https://cses.fi/problemset/task/1634) | [Recursive](Dynamic%20Programming/MinimizingCoins/Recursive.java), [Recursive Memo](Dynamic%20Programming/MinimizingCoins/RecursiveMemo.java) |
 | [Removal Game](https://cses.fi/problemset/task/1097) | [Recursive](Dynamic%20Programming/RemovalGame/Recursive.java) |
 <!-- END:SOLUTIONS -->
 
