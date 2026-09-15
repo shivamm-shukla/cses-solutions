@@ -10,14 +10,14 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
 | Sorting and Searching | 0 / 35 | `░░░░░░░░░░░░` 0% |
 | [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+5 in progress)_ | `██░░░░░░░░░░` 16% |
-| [Graph Algorithms](Graph%20Algorithms/) | 2 / 36 | `█░░░░░░░░░░░` 6% |
+| [Graph Algorithms](Graph%20Algorithms/) | 3 / 36 | `█░░░░░░░░░░░` 8% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Tree Algorithms | 0 / 16 | `░░░░░░░░░░░░` 0% |
 | Mathematics | 0 / 31 | `░░░░░░░░░░░░` 0% |
 | String Algorithms | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Geometry | 0 / 15 | `░░░░░░░░░░░░` 0% |
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
-| **Total** | **5 / 232** | **2%** |
+| **Total** | **6 / 232** | **3%** |
 
 _5 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
@@ -47,6 +47,7 @@ _5 more problem(s) attempted but not finished — listed under their category be
 
 | Problem | Solution | Other approaches |
 | ------- | -------- | ---------------- |
+| [Building Roads](https://cses.fi/problemset/task/1666) | [Optimal.java](Graph%20Algorithms/BuildingRoads/Optimal.java) | — |
 | [Building Teams](https://cses.fi/problemset/task/1668) | [Optimal.java](Graph%20Algorithms/BuildingTeams/Optimal.java) | — |
 | [Counting Rooms](https://cses.fi/problemset/task/1192) | [Optimal.java](Graph%20Algorithms/CountingRooms/Optimal.java) | [Recursive](Graph%20Algorithms/CountingRooms/Recursive.java) |
 <!-- END:SOLUTIONS -->
