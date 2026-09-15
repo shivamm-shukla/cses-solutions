@@ -31,7 +31,10 @@
     "Projects": 1140,
     "ElevatorRides": 1653,
     "CountingTilings": 2181,
-    "CountingNumbers": 2220
+    "CountingNumbers": 2220,
+    "CountingRooms": 1192,
+    "BuildingRoads": 1666,
+    "BuildingTeams": 1668
   },
   "titles": {
     "_comment": "Overrides for names PascalCase-splitting gets wrong. e.g. \"TwoSetsII\": \"Two Sets II\" is handled automatically; add here only when it isn't."
