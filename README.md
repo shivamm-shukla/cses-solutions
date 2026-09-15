@@ -10,16 +10,16 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
 | Sorting and Searching | 0 / 35 | `░░░░░░░░░░░░` 0% |
 | [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+5 in progress)_ | `██░░░░░░░░░░` 16% |
-| [Graph Algorithms](Graph%20Algorithms/) | 0 / 36 _(+1 in progress)_ | `░░░░░░░░░░░░` 0% |
+| [Graph Algorithms](Graph%20Algorithms/) | 1 / 36 | `░░░░░░░░░░░░` 3% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Tree Algorithms | 0 / 16 | `░░░░░░░░░░░░` 0% |
 | Mathematics | 0 / 31 | `░░░░░░░░░░░░` 0% |
 | String Algorithms | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Geometry | 0 / 15 | `░░░░░░░░░░░░` 0% |
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
-| **Total** | **3 / 232** | **1%** |
+| **Total** | **4 / 232** | **2%** |
 
-_6 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
+_5 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
 
 ## Solutions
@@ -45,11 +45,9 @@ _6 more problem(s) attempted but not finished — listed under their category be
 
 ### Graph Algorithms
 
-> **In progress** — attempted, but no final solution committed yet.
-
-| Problem | Attempts so far |
-| ------- | --------------- |
-| [Counting Rooms](https://cses.fi/problemset/task/1192) | [Recursive](Graph%20Algorithms/CountingRooms/Recursive.java) |
+| Problem | Solution | Other approaches |
+| ------- | -------- | ---------------- |
+| [Counting Rooms](https://cses.fi/problemset/task/1192) | [Optimal.java](Graph%20Algorithms/CountingRooms/Optimal.java) | [Recursive](Graph%20Algorithms/CountingRooms/Recursive.java) |
 <!-- END:SOLUTIONS -->
 
 ## Structure
