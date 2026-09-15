@@ -9,7 +9,7 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | -------- | ------ | -------- |
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
 | Sorting and Searching | 0 / 35 | `░░░░░░░░░░░░` 0% |
-| [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+4 in progress)_ | `██░░░░░░░░░░` 16% |
+| [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+5 in progress)_ | `██░░░░░░░░░░` 16% |
 | Graph Algorithms | 0 / 36 | `░░░░░░░░░░░░` 0% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Tree Algorithms | 0 / 16 | `░░░░░░░░░░░░` 0% |
@@ -19,7 +19,7 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
 | **Total** | **3 / 232** | **1%** |
 
-_4 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
+_5 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
 
 ## Solutions
@@ -40,6 +40,7 @@ _4 more problem(s) attempted but not finished — listed under their category be
 | [Book Shop](https://cses.fi/problemset/task/1158) | [Recursive](Dynamic%20Programming/BookShop/Recursive.java) |
 | [Edit Distance](https://cses.fi/problemset/task/1639) | [Recursive](Dynamic%20Programming/EditDistance/Recursive.java) |
 | [Increasing Subsequence](https://cses.fi/problemset/task/1145) | [Recursive](Dynamic%20Programming/IncreasingSubsequence/Recursive.java) |
+| [Projects](https://cses.fi/problemset/task/1140) | [Recursive](Dynamic%20Programming/Projects/Recursive.java) |
 | [Removal Game](https://cses.fi/problemset/task/1097) | [Recursive](Dynamic%20Programming/RemovalGame/Recursive.java) |
 <!-- END:SOLUTIONS -->
 
