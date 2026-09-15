@@ -9,7 +9,7 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | -------- | ------ | -------- |
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
 | Sorting and Searching | 0 / 35 | `░░░░░░░░░░░░` 0% |
-| [Dynamic Programming](Dynamic%20Programming/) | 2 / 19 _(+4 in progress)_ | `█░░░░░░░░░░░` 11% |
+| [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+3 in progress)_ | `██░░░░░░░░░░` 16% |
 | Graph Algorithms | 0 / 36 | `░░░░░░░░░░░░` 0% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Tree Algorithms | 0 / 16 | `░░░░░░░░░░░░` 0% |
@@ -17,9 +17,9 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | String Algorithms | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Geometry | 0 / 15 | `░░░░░░░░░░░░` 0% |
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
-| **Total** | **2 / 232** | **1%** |
+| **Total** | **3 / 232** | **1%** |
 
-_4 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
+_3 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
 
 ## Solutions
@@ -30,6 +30,7 @@ _4 more problem(s) attempted but not finished — listed under their category be
 | Problem | Solution | Other approaches |
 | ------- | -------- | ---------------- |
 | [Grid Paths](https://cses.fi/problemset/task/1638) | [OptimalIterative.java](Dynamic%20Programming/GridPaths/OptimalIterative.java) | [Recursive](Dynamic%20Programming/GridPaths/Recursive.java), [Recursive Memo](Dynamic%20Programming/GridPaths/RecursiveMemo.java) |
+| [Minimizing Coins](https://cses.fi/problemset/task/1634) | [OptimalIterative.java](Dynamic%20Programming/MinimizingCoins/OptimalIterative.java) | [Recursive](Dynamic%20Programming/MinimizingCoins/Recursive.java), [Recursive Memo](Dynamic%20Programming/MinimizingCoins/RecursiveMemo.java) |
 | [Removing Digits](https://cses.fi/problemset/task/1637) | [OptimalIterative.java](Dynamic%20Programming/RemovingDigits/OptimalIterative.java) | [Iterative](Dynamic%20Programming/RemovingDigits/Iterative.java), [Recursive Memo](Dynamic%20Programming/RemovingDigits/RecursiveMemo.java) |
 
 > **In progress** — attempted, but no final solution committed yet.
@@ -38,7 +39,6 @@ _4 more problem(s) attempted but not finished — listed under their category be
 | ------- | --------------- |
 | [Book Shop](https://cses.fi/problemset/task/1158) | [Recursive](Dynamic%20Programming/BookShop/Recursive.java) |
 | [Edit Distance](https://cses.fi/problemset/task/1639) | [Recursive](Dynamic%20Programming/EditDistance/Recursive.java) |
-| [Minimizing Coins](https://cses.fi/problemset/task/1634) | [Iterative Optimized](Dynamic%20Programming/MinimizingCoins/IterativeOptimized.java), [Recursive](Dynamic%20Programming/MinimizingCoins/Recursive.java), [Recursive Memo](Dynamic%20Programming/MinimizingCoins/RecursiveMemo.java) |
 | [Removal Game](https://cses.fi/problemset/task/1097) | [Recursive](Dynamic%20Programming/RemovalGame/Recursive.java) |
 <!-- END:SOLUTIONS -->
 

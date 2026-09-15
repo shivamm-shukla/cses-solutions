@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class IterativeOptimized {
+public class OptimalIterative {
 
     public static int minCoins(int val, int[] coins) {
 
