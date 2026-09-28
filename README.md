@@ -10,14 +10,14 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
 | Sorting and Searching | 0 / 35 | `░░░░░░░░░░░░` 0% |
 | [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+5 in progress)_ | `██░░░░░░░░░░` 16% |
-| [Graph Algorithms](Graph%20Algorithms/) | 11 / 36 _(+1 in progress)_ | `████░░░░░░░░` 31% |
+| [Graph Algorithms](Graph%20Algorithms/) | 12 / 36 _(+1 in progress)_ | `████░░░░░░░░` 33% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Tree Algorithms | 0 / 16 | `░░░░░░░░░░░░` 0% |
 | Mathematics | 0 / 31 | `░░░░░░░░░░░░` 0% |
 | String Algorithms | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Geometry | 0 / 15 | `░░░░░░░░░░░░` 0% |
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
-| **Total** | **14 / 232** | **6%** |
+| **Total** | **15 / 232** | **6%** |
 
 _6 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
@@ -58,6 +58,7 @@ _6 more problem(s) attempted but not finished — listed under their category be
 | [Round Trip](https://cses.fi/problemset/task/1669) | [Optimal.java](Graph%20Algorithms/RoundTrip/Optimal.java) | — |
 | [Round Trip II](https://cses.fi/problemset/task/1678) | [Optimal.java](Graph%20Algorithms/RoundTripII/Optimal.java) | — |
 | [Shortest Routes I](https://cses.fi/problemset/task/1671) | [Optimal.java](Graph%20Algorithms/ShortestRoutesI/Optimal.java) | — |
+| [Shortest Routes II](https://cses.fi/problemset/task/1672) | [Optimal.java](Graph%20Algorithms/ShortestRoutesII/Optimal.java) | — |
 
 > **In progress** — attempted, but no final solution committed yet.
 
