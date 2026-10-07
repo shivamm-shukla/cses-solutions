@@ -8,16 +8,16 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Category | Solved | Progress |
 | -------- | ------ | -------- |
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
-| Sorting and Searching | 0 / 35 | `░░░░░░░░░░░░` 0% |
+| [Sorting and Searching](Sorting%20and%20Searching/) | 1 / 35 | `░░░░░░░░░░░░` 3% |
 | [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+5 in progress)_ | `██░░░░░░░░░░` 16% |
-| [Graph Algorithms](Graph%20Algorithms/) | 13 / 36 _(+1 in progress)_ | `████░░░░░░░░` 36% |
+| [Graph Algorithms](Graph%20Algorithms/) | 14 / 36 _(+1 in progress)_ | `█████░░░░░░░` 39% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Tree Algorithms | 0 / 16 | `░░░░░░░░░░░░` 0% |
 | Mathematics | 0 / 31 | `░░░░░░░░░░░░` 0% |
 | String Algorithms | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Geometry | 0 / 15 | `░░░░░░░░░░░░` 0% |
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
-| **Total** | **16 / 232** | **7%** |
+| **Total** | **18 / 232** | **8%** |
 
 _6 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
@@ -25,6 +25,12 @@ _6 more problem(s) attempted but not finished — listed under their category be
 ## Solutions
 
 <!-- BEGIN:SOLUTIONS -->
+### Sorting and Searching
+
+| Problem | Solution | Other approaches |
+| ------- | -------- | ---------------- |
+| Towers | [Optimal.java](Sorting%20and%20Searching/Towers/Optimal.java) | — |
+
 ### Dynamic Programming
 
 | Problem | Solution | Other approaches |
@@ -52,6 +58,7 @@ _6 more problem(s) attempted but not finished — listed under their category be
 | [Counting Rooms](https://cses.fi/problemset/task/1192) | [Optimal.java](Graph%20Algorithms/CountingRooms/Optimal.java) | [Recursive](Graph%20Algorithms/CountingRooms/Recursive.java) |
 | [Cycle Finding](https://cses.fi/problemset/task/1197) | [Optimal.java](Graph%20Algorithms/CycleFinding/Optimal.java) | — |
 | [Flight Discount](https://cses.fi/problemset/task/1195) | [Optimal.java](Graph%20Algorithms/FlightDiscount/Optimal.java) | — |
+| Flight Routes | [Optimal.java](Graph%20Algorithms/FlightRoutes/Optimal.java) | — |
 | [High Score](https://cses.fi/problemset/task/1673) | [Optimal.java](Graph%20Algorithms/HighScore/Optimal.java) | — |
 | [Labyrinth](https://cses.fi/problemset/task/1193) | [Optimal.java](Graph%20Algorithms/Labyrinth/Optimal.java) | — |
 | [Message Route](https://cses.fi/problemset/task/1667) | [Optimal.java](Graph%20Algorithms/MessageRoute/Optimal.java) | — |

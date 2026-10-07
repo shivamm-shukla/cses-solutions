@@ -3,14 +3,14 @@
   "categories": [
     { "name": "Introductory Problems", "total": 19 },
     { "name": "Sorting and Searching", "total": 35 },
-    { "name": "Dynamic Programming",   "total": 19 },
-    { "name": "Graph Algorithms",      "total": 36 },
-    { "name": "Range Queries",         "total": 20 },
-    { "name": "Tree Algorithms",       "total": 16 },
-    { "name": "Mathematics",           "total": 31 },
-    { "name": "String Algorithms",     "total": 20 },
-    { "name": "Geometry",              "total": 15 },
-    { "name": "Advanced Techniques",   "total": 21 }
+    { "name": "Dynamic Programming", "total": 19 },
+    { "name": "Graph Algorithms", "total": 36 },
+    { "name": "Range Queries", "total": 20 },
+    { "name": "Tree Algorithms", "total": 16 },
+    { "name": "Mathematics", "total": 31 },
+    { "name": "String Algorithms", "total": 20 },
+    { "name": "Geometry", "total": 15 },
+    { "name": "Advanced Techniques", "total": 21 }
   ],
   "ids": {
     "DiceCombinations": 1633,
@@ -34,7 +34,17 @@
     "CountingNumbers": 2220,
     "CountingRooms": 1192,
     "BuildingRoads": 1666,
-    "BuildingTeams": 1668
+    "BuildingTeams": 1668,
+    "Labyrinth": 1193,
+    "RoundTrip": 1669,
+    "MessageRoute": 1667,
+    "Monsters": 1194,
+    "RoundTripII": 1678,
+    "ShortestRoutesI": 1671,
+    "HighScore": 1673,
+    "CycleFinding": 1197,
+    "ShortestRoutesII": 1672,
+    "FlightDiscount": 1195
   },
   "titles": {
     "_comment": "Overrides for names PascalCase-splitting gets wrong. e.g. \"TwoSetsII\": \"Two Sets II\" is handled automatically; add here only when it isn't."
