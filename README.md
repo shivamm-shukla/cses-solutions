@@ -8,7 +8,7 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | Category | Solved | Progress |
 | -------- | ------ | -------- |
 | Introductory Problems | 0 / 19 | `░░░░░░░░░░░░` 0% |
-| [Sorting and Searching](Sorting%20and%20Searching/) | 1 / 35 | `░░░░░░░░░░░░` 3% |
+| [Sorting and Searching](Sorting%20and%20Searching/) | 2 / 35 | `█░░░░░░░░░░░` 6% |
 | [Dynamic Programming](Dynamic%20Programming/) | 3 / 19 _(+5 in progress)_ | `██░░░░░░░░░░` 16% |
 | [Graph Algorithms](Graph%20Algorithms/) | 14 / 36 _(+1 in progress)_ | `█████░░░░░░░` 39% |
 | Range Queries | 0 / 20 | `░░░░░░░░░░░░` 0% |
@@ -17,7 +17,7 @@ My Java solutions to the [CSES Problem Set](https://cses.fi/problemset/), organi
 | String Algorithms | 0 / 20 | `░░░░░░░░░░░░` 0% |
 | Geometry | 0 / 15 | `░░░░░░░░░░░░` 0% |
 | Advanced Techniques | 0 / 21 | `░░░░░░░░░░░░` 0% |
-| **Total** | **18 / 232** | **8%** |
+| **Total** | **19 / 232** | **8%** |
 
 _6 more problem(s) attempted but not finished — listed under their category below. A problem counts as solved only once it has an optimal solution file._
 <!-- END:PROGRESS -->
@@ -29,7 +29,8 @@ _6 more problem(s) attempted but not finished — listed under their category be
 
 | Problem | Solution | Other approaches |
 | ------- | -------- | ---------------- |
-| Towers | [Optimal.java](Sorting%20and%20Searching/Towers/Optimal.java) | — |
+| [Distinct Numbers](https://cses.fi/problemset/task/1621) | [Optimal.java](Sorting%20and%20Searching/DistinctNumbers/Optimal.java) | — |
+| [Towers](https://cses.fi/problemset/task/1073) | [Optimal.java](Sorting%20and%20Searching/Towers/Optimal.java) | — |
 
 ### Dynamic Programming
 

@@ -44,7 +44,9 @@
     "HighScore": 1673,
     "CycleFinding": 1197,
     "ShortestRoutesII": 1672,
-    "FlightDiscount": 1195
+    "FlightDiscount": 1195,
+    "Towers": 1073,
+    "DistinctNumbers": 1621
   },
   "titles": {
     "_comment": "Overrides for names PascalCase-splitting gets wrong. e.g. \"TwoSetsII\": \"Two Sets II\" is handled automatically; add here only when it isn't."
